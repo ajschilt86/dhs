@@ -45,8 +45,8 @@ body {
     width: 250px;
 }
 
-.navLink {
-    background-color: blue;
+.bottomLink {
+    background-color: #086797;
     margin-top: 20px;
     color: gold;
     padding: 16px;
@@ -95,7 +95,7 @@ nav {
 
 /* ------------------------------------------------------------------------Dropdown Button------------------------------------------------- */
 .dropbtn {
-    background-color: blue;
+    background-color: #086797;
     margin-top: 20px;
     color: gold;
     padding: 16px;
@@ -165,9 +165,9 @@ nav {
     text-align: center;
     color: black;
     line-height: 76px;
-    margin-top: -35px;
+    margin-top: -60px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1.5em;
     background-image: url(navPattern.jpeg);
 }
 
