@@ -1,4 +1,5 @@
 body {
+    background-image: url(backPattern.jpeg);
     margin: 0;
 }
 
@@ -9,9 +10,10 @@ body {
     width: 100%;
     background-color: #fff;
     border-bottom: 2px solid #cccccc;
+    background-image: url(navPattern.jpeg);
 }
 
-.mainWidth-container {
+.navContainer {
     width: 960px;
     max-width: 960px;
     margin: 0 auto;
@@ -41,6 +43,15 @@ body {
     display: flex;
     justify-content: space-between;
     width: 250px;
+}
+
+.navLink {
+    background-color: blue;
+    margin-top: 20px;
+    color: gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
 }
 
 .mainBody_wrap {
@@ -140,13 +151,13 @@ body {
 .footerAll {
     background-color: grey;
     height: 58px;
-    border-top: 10px solid blue;
     text-align: center;
-    color: gold;
+    color: black;
     line-height: 76px;
-    margin-top: -45px;
+    margin-top: -35px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12px;    
+    font-size: 12px;
+    background-image: url(navPattern.jpeg);
 }
 
 
@@ -154,7 +165,6 @@ body {
 footer {
     text-align: center;
     color: white;
-    border-top: 10px solid blue;
     background: grey;
     font-size: 10px;
     height: 55px;
@@ -162,5 +172,6 @@ footer {
     padding-top: 35px;
     bottom: 0;
     position: fixed;
-    width: 100%;    
+    width: 100%;
+    background-image: url(navPattern.jpeg);    
 }
